@@ -28,6 +28,25 @@ body {
     flex-wrap: wrap;
     background-color: brown;
   }
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 36px;
+    font-family: 'Josefin Sans', sans-serif;
+    height: 100px;
+    justify-content: space-around;
+    list-style-type: none;
+    background: brown;
+    color: white;
+    line-height:60px;
+}
+.a{
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration-color: aliceblue;
+    text-decoration:underline;
+}
   
   main {
     flex: 1 100%;
