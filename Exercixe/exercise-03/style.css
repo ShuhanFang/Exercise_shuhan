@@ -1,0 +1,35 @@
+
+body {
+    background-color:yellowgreen;
+}
+div{
+    background-color: rgb(238, 255, 0);
+    position: relative;
+    top: 100px;
+    left: 150px;
+    width: 1200px;
+    padding-left: 20PX #FC35D1;
+    border-top: 20PX #FC35D1;
+}
+.title {
+    color:#FC35D1;
+    font-size: 48px;
+}
+.lead {
+    color:#5C0F0D;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    font-size: 18px;
+    
+}
+.sutitle{
+    font-size:28px;
+}
+span{
+    display: inline-block;
+    background: rgb(145, 255, 71);
+    margin: 20px;
+
+}
