@@ -71,6 +71,31 @@
     color: #fff;
   }
   
+  a.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #4f4f4f; 
+    background-color: #fff;
+    color: #333;
+    padding: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    font-size: 14px;
+    font-family: 'ZCOOL XiaoWei', sans-serif;
+    font-weight: bold;
+    text-decoration: none; /* 去掉下划线 */
+  }
+  
+  a.home:hover, a.home.active {
+    background-color: #333;
+    color: #fff;
+  }
+  
   main {
     padding: 50px;
   }
